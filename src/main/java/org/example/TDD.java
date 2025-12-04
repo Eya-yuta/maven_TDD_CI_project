@@ -4,18 +4,22 @@ public class TDD {
     public static void main(String[] args) {
 
     }
+    //sum
     public static int sum(int a,int b){
         return a+b;
     }
+    //is Even
     public static boolean isEven(int a){
         return a%2==0;
     }
+    //getFirstCharacter
     public static Character getFirstCharacter(String str){
         if(str==null||str.isEmpty()){
             return null;
         }
         return str.charAt(0);
     }
+    //reverseString
     public static String reverseString(String str){
         if(str==null||str.isEmpty()){
             return str;
@@ -28,6 +32,7 @@ public class TDD {
         return reversed.toString();//convert to string again
 
     }
+    //isPalindrome
     public static boolean isPalindrome(String str){
         if(str==null||str.isEmpty()){
             return false;
@@ -41,6 +46,7 @@ public class TDD {
             return false;
         }
     }
+    //countVowels
     public static int countVowels(String str){
         if(str==null||str.isEmpty()){
             return 0;
