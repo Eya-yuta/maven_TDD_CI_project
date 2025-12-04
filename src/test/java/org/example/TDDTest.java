@@ -75,7 +75,7 @@ public class TDDTest {
     void test_countVowels() {
         //GIVEN
         String str = "Hallo";
-        int expected=2;
+        int expected=3;
         //WHEN
         int actual= TDD.countVowels(str);
         //THEN
